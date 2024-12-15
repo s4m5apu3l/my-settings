@@ -1,0 +1,29 @@
+{
+	"Console.dir": {
+		"prefix": "dir",
+		"body": [
+			"console.dir($1);",
+			"$2"
+		],
+		"description": "console.dir()"
+	},
+    "Vue SFC <script setup>, TS": {
+    "prefix": "vbase",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "\t\t${0}",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue 3 File with <script setup>, TypeScript and no SCSS"
+  },
+},
